@@ -1,0 +1,18 @@
+{
+    "instance_id" : "prova_istanza",
+    "task_list" :[
+        {"task_id": "1", "m": 6, "s": 1.2, "out_line_cost": 3, "predecessor_set": []},
+        {"task_id": "2", "m": 2, "s": 0.4, "out_line_cost": 2, "predecessor_set": ["1"]},
+        {"task_id": "3", "m": 4, "s": 1, "out_line_cost": 2.5, "predecessor_set": ["1"]},
+        {"task_id": "4", "m": 9, "s": 5, "out_line_cost": 7, "predecessor_set": ["1"]},
+        {"task_id": "5", "m": 2, "s": 0.4, "out_line_cost": 1.5, "predecessor_set": ["1"]},
+        {"task_id": "6", "m": 2, "s": 0.4, "out_line_cost": 1.5, "predecessor_set": ["2"]},
+        {"task_id": "7", "m": 3, "s": 0.6, "out_line_cost": 2, "predecessor_set": ["3", "4", "5"]},
+        {"task_id": "8", "m": 6, "s": 1.2, "out_line_cost": 4, "predecessor_set": ["6"]},
+        {"task_id": "9", "m": 5, "s": 1, "out_line_cost": 3, "predecessor_set": ["7"]},
+        {"task_id": "10", "m": 5, "s": 1, "out_line_cost": 3, "predecessor_set": ["8"]},
+        {"task_id": "11", "m": 3, "s": 1.8, "out_line_cost": 2, "predecessor_set": ["9", "10"]}
+    ],
+    "q": 0.1,
+    "c": 0.5 
+}
