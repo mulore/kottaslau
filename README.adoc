@@ -22,16 +22,7 @@ The algorithm revolves around the question (to be answered for every task):
 
 TIP: _“Does it worth to risk to not complete the task, and incur in higher costs outside the line, assigning it to an already filled station? Or the cost of opening a new station is higher than the potential out of completion cost of the pending task”_
 
-Given,
-
-* latexmath:[L_{k}] the cost to complete task k, computed based on the mean time of task k and the hourly cost of the line
-* latexmath:[I_{k}] the cost to complete task k, and all the following tasks according with the operation process chart, outside the line. Generally higher cost than latexmath:[L_{k}].
-* latexmath:[X\sim\mathcal{N}(M,S^2)] stochastic variable of the execution time of tasks assigned to the station with latexmath:[M = \sum_{i\in tasks\_assigned\_to\_station} \mu_i] and latexmath:[S^2 = \sum_{i\in tasks\_assigned\_to\_station} \sigma_i^2]
-* latexmath:[R = P(X > T_C) = \int_{T_c}^{\infty} x dx] with latexmath:[T_c] cycle time
-
-The main inequation is
-
-latexmath:[L_k \geq R*I_k]
+image:img/equations.png[]
 
 When true, the task is considered “desiderable” so can be assigned to the station.
 
