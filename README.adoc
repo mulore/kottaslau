@@ -20,7 +20,7 @@ Always *exist a probability (risk) of missed completion of the task* that causes
 
 The algorithm revolves around the question (to be answered for every task):
 
-TIP: _“Does it worth to risk to not complete the task, and incur in higher costs outside the line, assigning it to an already filled station? Or the cost of opening a new station is higher than the potential out of completion cost of the pending task”_
+_“Does it worth to risk to not complete the task, and incur in higher costs outside the line, assigning it to an already filled station? Or the cost of opening a new station is higher than the potential out of completion cost of the pending task”_
 
 image:img/equations.png[]
 
@@ -32,8 +32,8 @@ For further details, please refer to _John F. Kottas & Hon-Shiang Lau (1976) A T
 
 * The expected production rate.
 * The cost per hour of a station.
-* The cost per task done outside the line.
-* The list of tasks with mean and variance of the completion time.
+* The cost per task outside the line.
+* The list of tasks with completion time mean and variance.
 * The technological constraints between tasks that imposes a successor-predecessor relationship.
 
 .Example of operation process chart
