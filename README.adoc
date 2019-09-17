@@ -46,6 +46,6 @@ For further details, please refer to _John F. Kottas & Hon-Shiang Lau (1976) A T
 * The technological constraints between tasks that imposes a successor-predecessor relationship.
 
 .Example of operation process chart
-image::operation_process_chart.png[]
+image::img/operation_process_chart.png[]
 
 
